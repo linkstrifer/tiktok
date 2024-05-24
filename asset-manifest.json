@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/tiktok/static/css/main.fc5c2c69.css",
+    "main.js": "/tiktok/static/js/main.981ef1de.js",
+    "index.html": "/tiktok/index.html",
+    "main.fc5c2c69.css.map": "/tiktok/static/css/main.fc5c2c69.css.map",
+    "main.981ef1de.js.map": "/tiktok/static/js/main.981ef1de.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fc5c2c69.css",
+    "static/js/main.981ef1de.js"
+  ]
+}
