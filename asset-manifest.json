@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/tiktok/static/css/main.fc5c2c69.css",
-    "main.js": "/tiktok/static/js/main.aa9de40e.js",
+    "main.js": "/tiktok/static/js/main.edf779f9.js",
     "index.html": "/tiktok/index.html",
     "main.fc5c2c69.css.map": "/tiktok/static/css/main.fc5c2c69.css.map",
-    "main.aa9de40e.js.map": "/tiktok/static/js/main.aa9de40e.js.map"
+    "main.edf779f9.js.map": "/tiktok/static/js/main.edf779f9.js.map"
   },
   "entrypoints": [
     "static/css/main.fc5c2c69.css",
-    "static/js/main.aa9de40e.js"
+    "static/js/main.edf779f9.js"
   ]
 }
