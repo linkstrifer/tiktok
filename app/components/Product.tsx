@@ -14,7 +14,7 @@ export function Product({
       <div>
         <picture className="w-full aspect-square p-4 flex">
           <img
-            src={image}
+            src={`${process.env.NODE_ENV === 'development' ? '/' : ''}${image}`}
             alt={name}
             className="object-contain object-center transition-all h-full w-full"
           />
