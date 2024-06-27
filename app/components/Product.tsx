@@ -12,11 +12,11 @@ export function Product({
   return (
     <article className="grid gap-4 grid-rows-subgrid row-span-2 items-start">
       <div>
-        <picture className="w-full aspect-square rounded-xl">
+        <picture className="w-full aspect-square p-4 flex">
           <img
             src={image}
             alt={name}
-            className="object-contain transition-all p-4 h-full w-full"
+            className="object-contain object-center transition-all h-full w-full"
           />
         </picture>
 
