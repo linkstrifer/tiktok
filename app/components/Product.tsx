@@ -1,13 +1,16 @@
 import { Link } from '@remix-run/react';
+import classNames from 'classnames';
 
 export function Product({
   name,
   url,
   image,
+  store = 'amazon',
 }: {
   name: string;
   url: string;
   image: string;
+  store?: string;
 }) {
   return (
     <article className="grid gap-4 grid-rows-subgrid row-span-2 items-start">
@@ -27,9 +30,17 @@ export function Product({
         to={url}
         rel="noopener noreferrer"
         target="_blank"
-        className="p-4 rounded-xl bg-amber-400 text-black flex justify-center text-lg gap-2 items-center font-bold no-underline"
+        className={classNames(
+          'p-4 rounded-xl flex justify-center text-lg gap-2 items-center font-bold no-underline capitalize',
+          {
+            'bg-amber-400 text-black': store === 'amazon',
+            'bg-blue-400 text-white': store === 'steren',
+          }
+        )}
       >
-        <i className="bi bi-amazon"></i>Amazon
+        {store === 'Amazon' ? <i className="bi bi-amazon"></i> : null}
+
+        {store}
       </Link>
     </article>
   );

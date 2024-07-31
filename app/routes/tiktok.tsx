@@ -12,6 +12,12 @@ export const meta: MetaFunction = () => {
 
 const products = [
   {
+    name: 'Power bank, 24,000 mAh 80 Wh',
+    url: 'https://www.steren.com.co/estacion-de-poder-de-24-000-mah-y-80-w-v-portatil.html',
+    image: 'images/2uhjkdf72.webp',
+    store: 'steren',
+  },
+  {
     name: 'Earpads for Microsoft Xbox Wireless/Wired',
     url: 'https://amzn.to/4cgeGnv',
     image: 'images/81Es3VU46OL._AC_SL1500_.webp',
