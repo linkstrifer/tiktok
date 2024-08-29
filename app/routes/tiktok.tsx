@@ -1,7 +1,8 @@
 import type { MetaFunction } from '@remix-run/node';
-import { useSearchParams } from '@remix-run/react';
+import { Link, useSearchParams } from '@remix-run/react';
 import { useMemo } from 'react';
 import { Product } from '~/components/Product';
+import { YouTube } from '~/components/YouTube';
 
 export const meta: MetaFunction = () => {
   return [
@@ -89,7 +90,16 @@ export default function Index() {
 
   return (
     <div className="App">
-      <section className="p-8 max-w-4xl m-auto flex flex-col gap-4">
+      <section className="p-8 max-w-4xl m-auto flex flex-col gap-4 relative">
+        <Link
+          className="flex gap-2 items-center font-bold text-red-600"
+          to="https://www.youtube.com/@LinkStrifer1"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Sígueme en <YouTube className="fill-red-600" />
+        </Link>
+
         <h1 className="text-4xl font-bold">Recomendaciones</h1>
 
         <input
