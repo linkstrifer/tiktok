@@ -13,6 +13,11 @@ export const meta: MetaFunction = () => {
 
 const products = [
   {
+    name: 'Collar AirTag para gatos',
+    url: 'https://amzn.to/3YfLxmO',
+    image: 'images/71-n6CuNl-L._AC_SL1500.webp',
+  },
+  {
     name: 'Power bank, 24,000 mAh 80 Wh',
     url: 'https://www.steren.com.co/estacion-de-poder-de-24-000-mah-y-80-w-v-portatil.html',
     image: 'images/2uhjkdf72.webp',
