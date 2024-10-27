@@ -13,6 +13,16 @@ export const meta: MetaFunction = () => {
 
 const products = [
   {
+    name: 'AirTag',
+    url: 'https://amzn.to/48pymED',
+    image: 'images/71rP7f78eFL._AC_SL1500_.webp',
+  },
+  {
+    name: 'AirTags x4',
+    url: 'https://amzn.to/3NI5Fce',
+    image: 'images/61bMNCeAUAL._AC_SL1500_.webp',
+  },
+  {
     name: 'Collar AirTag para gatos',
     url: 'https://amzn.to/3YfLxmO',
     image: 'images/71-n6CuNl-L._AC_SL1500.webp',
