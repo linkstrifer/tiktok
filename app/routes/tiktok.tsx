@@ -13,6 +13,26 @@ export const meta: MetaFunction = () => {
 
 const products = [
   {
+    name: '8Bitdo Wireless USB Adapter for Switch, Windows, Mac & Raspberry Pi',
+    url: 'https://amzn.to/3OuojF0',
+    image: 'images51ZuA6ivnvL._SL1500_.webp',
+  },
+  {
+    name: 'Logitech G Driving Force Shifter',
+    url: 'https://amzn.to/4fLch5Y',
+    image: 'images/61UxxpmrCfL._AC_SL1000_.webp',
+  },
+  {
+    name: 'Xbox Wireless Headset V2',
+    url: 'https://amzn.to/4g3FIjC',
+    image: 'images/71a4QQm1OqL._SL1500_.webp',
+  },
+  {
+    name: 'Broadlink RM4 Mini Smart - IR Blaster Hub',
+    url: 'https://amzn.to/3ZsfJwV',
+    image: 'images/41sl8cTQOmL._AC_SL1000_.wepb',
+  },
+  {
     name: 'AirTag',
     url: 'https://amzn.to/48pymED',
     image: 'images/71rP7f78eFL._AC_SL1500_.webp',
