@@ -30,7 +30,7 @@ const products = [
   {
     name: 'Broadlink RM4 Mini Smart - IR Blaster Hub',
     url: 'https://amzn.to/3ZsfJwV',
-    image: 'images/41sl8cTQOmL._AC_SL1000_.wepb',
+    image: 'images/41sl8cTQOmL._AC_SL1000_.webp',
   },
   {
     name: 'AirTag',
