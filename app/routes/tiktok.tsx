@@ -15,7 +15,7 @@ const products = [
   {
     name: '8Bitdo Wireless USB Adapter for Switch, Windows, Mac & Raspberry Pi',
     url: 'https://amzn.to/3OuojF0',
-    image: 'images51ZuA6ivnvL._SL1500_.webp',
+    image: 'images/51ZuA6ivnvL._SL1500_.webp',
   },
   {
     name: 'Logitech G Driving Force Shifter',
