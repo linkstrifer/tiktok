@@ -13,6 +13,24 @@ export const meta: MetaFunction = () => {
 
 const products = [
   {
+    url: 'https://www.thingiverse.com/thing:5376817',
+    name: 'SKADIS Clamp',
+    image: 'images/skadis-clamp.webp',
+    store: 'generic',
+  },
+  {
+    url: 'https://www.thingiverse.com/thing:6330604',
+    name: 'Soporte para control de SKADIS',
+    image: 'images/skadis-control.webp',
+    store: 'generic',
+  },
+  {
+    name: 'IKEA SKÅDIS Tablero perforado',
+    url: 'https://www.ikea.com/co/es/p/skadis-tablero-perforado-comb-s89406365/?msockid=1323d0d3873a60d0394ac4d3869561f2',
+    image: 'images/skadis.webp',
+    store: 'generic',
+  },
+  {
     name: '8Bitdo Wireless USB Adapter for Switch, Windows, Mac & Raspberry Pi',
     url: 'https://amzn.to/3OuojF0',
     image: 'images/51ZuA6ivnvL._SL1500_.webp',

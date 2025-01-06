@@ -4,8 +4,12 @@ import {
   Outlet,
   Scripts,
   ScrollRestoration,
-} from "@remix-run/react";
-import "./tailwind.css";
+} from '@remix-run/react';
+import tailwindStyles from './tailwind.css?url';
+
+export function links() {
+  return [{ rel: 'stylesheet', href: tailwindStyles }];
+}
 
 export function Layout({ children }: { children: React.ReactNode }) {
   return (
