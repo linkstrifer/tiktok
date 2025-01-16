@@ -13,6 +13,11 @@ export const meta: MetaFunction = () => {
 
 const products = [
   {
+    url: 'https://amzn.to/3C0hgS1',
+    name: 'Logitech MK850 Performance Wireless Keyboard and Mouse Combo',
+    image: 'images/71qdY1K3AxL._AC_SL1500_.webp',
+  },
+  {
     url: 'https://www.thingiverse.com/thing:5376817',
     name: 'SKADIS Clamp',
     image: 'images/skadis-clamp.webp',
